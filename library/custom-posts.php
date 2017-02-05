@@ -44,7 +44,7 @@ if ( ! function_exists('custom_posts_init') ) :
     //   );
     //
     //   register_post_type( 'book', $args );
-    // }
+    }
   endif;
   add_action( 'init', 'custom_posts_init' );
   ?>
