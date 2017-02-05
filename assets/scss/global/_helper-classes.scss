@@ -1,0 +1,19 @@
+// Variables Necessary 
+$letter-spacing-wide: .2em;
+$letter-spacing-medium: .1em;
+
+/* Helper Classes */
+// Circular images
+.circle-crop {
+  border-radius: 50%;
+}
+// Letter spacing classes
+.wide-spacing {
+  letter-spacing: $letter-spacing-wide;
+}
+.medium-spacing {
+  letter-spacing: $letter-spacing-medium;
+}
+.uppercase {
+  text-transform: uppercase;
+}
