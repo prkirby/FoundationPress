@@ -14,7 +14,8 @@ var cleanCSS    = require('gulp-clean-css');
 
 // Enter URL of your local server here
 // Example: 'http://localwebsite.dev'
-var URL = '';
+var URL = 'paulkirbydev.dynamic-dns.net',
+    HOST = 'paulkirbydev.dynamic-dns.net';
 
 // Check for --production flag
 var isProduction = !!(argv.production);
@@ -96,6 +97,7 @@ gulp.task('browser-sync', ['build'], function() {
   browserSync.init(files, {
     // Proxy address
     proxy: URL,
+    host: HOST,
 
     // Port #
     // port: PORT
